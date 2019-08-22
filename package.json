@@ -1,0 +1,16 @@
+{
+  "name": "change-css-custom-variable",
+  "version": "0.0.1",
+  "description": "Change the CSS custom variables",
+  "main": "index.js",
+  "repository": "https://github.com/avinashsivaraman/change-css-custom-variable.git",
+  "author": "Avinash <avinashcegian95@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "rollup -c && cp dist/* example/lib"
+  },
+  "devDependencies": {
+    "rollup": "^1.19.4"
+  }
+}
